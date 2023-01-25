@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.info {
+  width: 90%;
+  margin-left: 8%;
+}
+
+.services {
+  margin-top: 100px;
+}
+
+.text {
+  margin-left: 10%;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+.header {
+  line-height: 1;
+  top: -10px;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: -1;
+  font-weight: 900 !important;
+  font-size: 73px;
+  color: #efefef;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+h2 {
+  font-weight: 700;
+  margin-top: 0;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 0px;
+  color: #6168ff;
+}
+
+.text_footer {
+  font-size: 27px;
+  margin-bottom: 0;
+  line-height: 38px;
+  color: #333;
+}
+
+.contains {
+  width: 400px;
+  margin-right: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.contains img {
+  width: 400px;
+  height: 420px;
+}
+
+.right {
+  width: 400px;
+  position: relative;
+  display: inline-block;
+}
+
+.right img {
+  width: 400px;
+  height: 420px;
+}
+
+figcaption {
+  display: block;
+  border: 1px solid #ebe6de;
+  box-shadow: 0 0 20px rgb(0 0 0 / 3%);
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 25px 30px;
+  text-align: left;
+  background-color: transparent;
+  position: absolute;
+  z-index: 11;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 110px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.fig_h4 {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.money {
+  font-size: 16px;
+  font-weight: 600;
+  float: right;
+  color: green;
+}
+
+.days {
+  color: #727272;
+  font-size: 15px;
+}
+
+.fa-thin {
+  font-size: 15px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.room {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  width: 400px;
+  height: 180px;
+  border-radius: 5px;
+  background-color: #f4f9ff;
+  padding: 20px;
+  font-size: 30px;
+  color: #6168ff;
+}
+
+.nav_text {
+  overflow: hidden;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+
+.nav_h4 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav_p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
